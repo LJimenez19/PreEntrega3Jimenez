@@ -1,0 +1,66 @@
+// Cuadrícula de contenido
+.grid-div {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 400px);
+    gap: 50px;
+    grid-template-areas: "area1 area2 area2 area3"
+        "area4 area5 area6 area6"
+        "area7 area8 area9 area9";
+
+    >.area>img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    >.area>div>h3>a {
+        font-size: large;
+        color: #8B0000;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-decoration: none;
+    }
+
+    .card-index {
+        text-decoration: none;
+    }
+
+    #area1 {
+        grid-area: area1;
+    }
+
+    #area2 {
+        grid-area: area2;
+    }
+
+    #area3 {
+        grid-area: area3;
+    }
+
+    #area4 {
+        grid-area: area4;
+    }
+
+    #area5 {
+        grid-area: area5;
+    }
+
+    #area6 {
+        grid-area: area6;
+    }
+
+    #area7 {
+        grid-area: area7;
+    }
+
+    #area8 {
+        grid-area: area8;
+    }
+
+    #area9 {
+        grid-area: area9;
+    }
+}

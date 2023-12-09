@@ -1,0 +1,30 @@
+// Media queries
+@media (max-width: 768px) {
+    header {
+        font-size: 0.8em;
+
+        >nav>a {
+            font-size: large;
+        }
+    }
+
+    .hero-section {
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .wrap-hero-section {
+        max-width: 1000px;
+        margin-top: 15%;
+    }
+
+    .grid-div {
+        margin: 5px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 200px);
+        grid-template-areas: "area1 area2 area3"
+            "area4 area5 area6"
+            "area7 area8 area9";
+    }
+}

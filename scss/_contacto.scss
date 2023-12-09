@@ -1,0 +1,41 @@
+// Estilos para el formulario de contacto
+#contacto {
+    text-align: center;
+    margin: 20px;
+    padding-top: 100px;
+
+    >form {
+        max-width: 600px;
+        margin: auto;
+
+        >label {
+            display: block;
+            margin: 10px 0;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        >input,
+        >textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        >button {
+            padding: 10px 20px;
+            background-color: #005D9A;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #004E80;
+            }
+        }
+    }
+}

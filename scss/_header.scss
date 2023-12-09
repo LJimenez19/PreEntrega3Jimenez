@@ -1,0 +1,33 @@
+// Encabezado
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+
+    >nav {
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        >a {
+            color: #fef6cd;
+            text-decoration: none;
+            font-family: "Montserrat", sans-serif;
+            font-size: x-large;
+
+            &:hover {
+                color: black;
+                font-weight: bold;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.logo-header {
+    max-width: 35px;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+// Sección Hero
+.wrap-cta {
+    padding: 1.5rem 0;
+
+    .cta-a {
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.2rem;
+        background-color: var(--main-c);
+        padding: .5rem 1rem;
+        border-radius: var(--border-r);
+        text-decoration: none;
+    }
+}
+
+.hero-section {
+    height: 90vh;
+    background: url(/img/background3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(106, 141, 163, 0.7);
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+
+    .wrap-hero-section {
+        max-width: 600px;
+        color: white;
+        padding: 3%;
+    }
+}
